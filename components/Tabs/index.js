@@ -17,7 +17,6 @@ axios
       const divTab = document.createElement("div");
       divTab.classList.add("tab");
       divTab.textContent = item;
-      console.log(divTab);
       // appending tab component
       const placingUnder = document.querySelector(".topics");
       placingUnder.appendChild(divTab);
